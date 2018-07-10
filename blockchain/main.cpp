@@ -5,18 +5,7 @@ using namespace std;
 
 int main()
 {
-    int i; 
-    /*
-       Block b1 = Block("Ricardo", 33, "asdf");
-       Block b2 = Block("Ricardo Farinhaki", 34, "");
-       string s("Teste!");
-
-       cout<<b1.getInfo().getName()<<" "<<b1.getInfo().getIdade()<<endl;
-       cout<<"hash:"<<b1.getHash()<<endl;
-
-       cout<<b2.getInfo().getName()<<" "<<b2.getInfo().getIdade()<<endl;
-       cout<<"hash:"<<b2.getHash()<<endl;
-       */
+    int i;
 
     Chain c;
     c.addBlock(new Info("Joao", 74));
